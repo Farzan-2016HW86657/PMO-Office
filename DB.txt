@@ -1,0 +1,16 @@
+#!/bin/bash
+yum install httpd php php-mysql git -y
+yum update -y
+service httpd start
+chkconfig httpd on
+cd /var/www/html
+git clone https://github.com/aws-training/rdslab.git
+
+
+mysqldbinstace.ci9ozlc18xlq.ap-south-1.rds.amazonaws.com
+mysqldbinstace
+mysqldbinstace
+
+
+
+arn:aws:sns:ap-south-1:690570641083:MyS3-Topic
